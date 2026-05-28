@@ -13,8 +13,9 @@
  #   print(i)
 
 #to skip any number
-for i in range(0,21):
-    if i==13:
-        continue
-    print(i)
-    
+#for i in range(0,21):
+ #   if i==13:
+  #      continue
+   # print(i)
+
+#to break from the for loop us break    
