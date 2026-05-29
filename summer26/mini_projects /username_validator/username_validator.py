@@ -12,10 +12,8 @@ while True:
     elif username[0].isdigit():
         print("Username must not start with a digit!!")
 
-    elif not username.isalnum():
-        print("Only alphabets and numbers are allowed!!")
-
     else:
+        username=username.lower()
         print(f"Your username is: {username}")
         break
  
