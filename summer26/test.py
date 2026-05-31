@@ -1,8 +1,8 @@
-rows=int(input("enter no of rows:"))
-columns=int(input("enter no of columns:"))
-symbol=input("enter a symbol:")
-
-for i in range(rows):
-    for j in range (columns):
-        print(symbol,end="")
+keypad=((1,2,3),
+        (4,5,6),
+        (7,8,9),
+        ("*",0,"#"))
+for i in keypad:
+    for j in i:
+        print(j,end=" ")
     print()    
