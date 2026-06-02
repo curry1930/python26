@@ -9,7 +9,7 @@ capitals={"India":"New Delhi",
 #print(dir(capitals))
 #print(help(capitals))
 
-#print(capitals.get("India"))
+print(capitals.get("Japan"))
 
 #if capitals.get("Japan"):
 #    print("That capital does exist!")
@@ -33,8 +33,7 @@ capitals={"India":"New Delhi",
 #for value in capitals.values():
 #    print(value)   
  
-items=capitals.items()
-
+#items=capitals.items()
 #print(items)                                returns a 2D list of tuples 
-for key,value in capitals.items():
-    print(f"{key}:{value}")
+#for key,value in capitals.items():
+#    print(f"{key}:{value}")
