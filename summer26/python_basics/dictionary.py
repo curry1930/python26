@@ -9,7 +9,7 @@ capitals={"India":"New Delhi",
 #print(dir(capitals))
 #print(help(capitals))
 
-print(capitals.get("Japan"))
+print(capitals.get("India"))
 
 #if capitals.get("Japan"):
 #    print("That capital does exist!")

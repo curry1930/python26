@@ -31,7 +31,7 @@
 
 #SET   #set is unordered we cant print indexes because elements are not in order 
        #everytime we print the set it will be in diffrent order   
-fruits={"apple", "orange", "banana", "watermelon"}
+#fruits={"apple", "orange", "banana", "watermelon"}
 
 #print(fruits)
 #print(dir(fruits))
@@ -45,8 +45,8 @@ fruits={"apple", "orange", "banana", "watermelon"}
 #fruits.clear()
 #print(fruits)
 
-for fruit in fruits:
-    print(fruit)
+#for fruit in fruits:
+    #print(fruit)
 
 
 #TUPLES 
@@ -61,3 +61,6 @@ fruits=("apple", "orange", "banana", "watermelon")
 
 #print(fruits.index("apple"))  #prints index of an element
 #print(fruits.count("apple"))   #counts the no of apple in tuple
+
+#for fruit in fruits:
+    #print(fruit)
