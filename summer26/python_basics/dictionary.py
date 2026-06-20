@@ -37,3 +37,13 @@ print(capitals.get("India"))
 #print(items)                                returns a 2D list of tuples 
 #for key,value in capitals.items():
 #    print(f"{key}:{value}")
+
+
+grades={"abhi":"B",
+        "sam":"A"}
+
+student=input("enter students name:")
+if student in grades:
+    print(f"{student}'s grade is {grades[student]}")
+else:
+    print(f"{student} was not found!!")

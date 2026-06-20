@@ -13,6 +13,7 @@ for i in menu:
 while running:
 
     enter=int(input("Enter a specific from the menu:"))
+    
     if enter==1:
         print(f"Your account balance is:₹{balance}")
     elif enter==2:
