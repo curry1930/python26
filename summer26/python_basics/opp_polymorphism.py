@@ -45,3 +45,9 @@ shapes = [Circle(3),Square(4),Triangle(5,6), Pizza(11,"chicken")]
 
 for shape in shapes:
     print(f"{shape.area():.2f}cm²")
+
+
+
+#"Duck Typing" = Another way to achieve polymorphism besides inheritance
+#                Object must have the minimum necessary attributes/methods
+#                "If it looks like a duck and quaks like a duck, it must be a duck "    

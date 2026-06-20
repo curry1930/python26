@@ -18,8 +18,8 @@ class Circle(Shape):
         self.radius=radius
 
     def describe(self):
-        super().describe()
-        print(f"it is a {self.shape} with area of {math.pi * pow(self.radius,2)}")    
+        super().describe()                                                            # if dont print this super().describe() this will be called methhod overriding
+        print(f"it is a {self.shape} with area of {math.pi * pow(self.radius,2)}")    # because then it will print the describe() fromt he circle not the shape(parent) class
 
 class Square(Shape):
     def __init__(self,shape,color,is_filled,length,):

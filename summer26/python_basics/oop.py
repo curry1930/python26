@@ -5,7 +5,7 @@
 # class= (blueprint) used to design the structure and layout of the object 
  
 class Car:
-    def __init__(self, model, year, color, for_sale):
+    def __init__(self, model, year, color, for_sale):         #constructor 
         self.model=model
         self.year=year
         self.color=color

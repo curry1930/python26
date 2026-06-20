@@ -190,7 +190,7 @@ del rectangle.width
 #             without modifying the base function 
 #             Pass the base function as an argument to the decorator
 
-def add_sprinkles(func):
+def add_sprinkles(func):                       # this is blueprint the create a decorator 
     def wrapper():
         print("You added sprinkles 🎊")
         func()
