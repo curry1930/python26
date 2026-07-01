@@ -25,7 +25,7 @@ class DigitalClock(QWidget):
         self.time_lable.setStyleSheet("Font-size: 80px;"
                                       "Color: hsl(124, 98%, 50%);")
         
-        font_id = QFontDatabase.addApplicationFont("/Users/abhinavkumarchoubey/Documents/languages/summer26/mini_projects/python_PyQt5_digital_clock/digital-7.ttf")
+        font_id = QFontDatabase.addApplicationFont("/Users/abhinavkumarchoubey/Documents/languages/summer26/mini_projects/python_PyQt5_digital_clock/digital-7.ttf") 
         font_family = QFontDatabase.applicationFontFamilies(font_id)[0]
         my_font = QFont(font_family, 150)
         self.time_lable.setFont(my_font)
